@@ -1,0 +1,145 @@
+body {
+    margin: 0;
+    height: 100%;
+    overflow: hidden;
+  }
+
+  .breadcrumb-enter-active,
+  .breadcrumb-leave-active {
+    transition: all .5s;
+  }
+  
+  .breadcrumb-enter,
+  .breadcrumb-leave-active {
+    opacity: 0;
+    transform: translateX(20px);
+  }
+  
+  .breadcrumb-move {
+    transition: all .5s;
+  }
+  
+  .breadcrumb-leave-active {
+    position: absolute;
+  }
+  
+  .item-enter,
+  .item-leave-to {
+    transform: translateX(30px);
+    opacity: 0;
+  }
+  
+  .item-enter-active,
+  .item-leave-active {
+    transition: all 0.5s ease;
+  }
+  
+  .dialog-enter,
+  .dialog-leave-to {
+    transform: translateY(-30px);
+    opacity: 0;
+  }
+  
+  .dialog-enter-active,
+  .dialog-leave-active {
+    transition: all 0.3s ease;
+  }
+  
+  .el-dialog--center .el-dialog__body {
+    text-align: initial;
+    padding: 2px 25px 30px !important
+  }
+  
+  .el-dialog__header {
+    padding: 10px 20px 10px !important
+  }
+  
+  .el-dialog__title {
+    line-height: 24px;
+    font-size: 18px;
+    font-weight: 550;
+    color: #303133;
+  }
+  
+  body .el-table th.gutter {
+    display: table-cell !important;
+  }
+  
+  .el-loading-spinner {
+    top: 27% !important;
+  }
+  
+  .layout-bread {
+    background-color: #EEEEEE;
+    height: 40px;
+    width: 100%;
+    position: relative;
+  }
+  
+  .bar-content {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    height: 40px;
+    right: 120px;
+    left: 5px;
+    overflow: hidden;
+  }
+  
+  .bar-scroll {
+    width: 100%;
+    position: absolute;
+    transition: left .3s ease;
+    white-space: nowrap;
+  }
+  
+  .bar-tool {
+    position: absolute;
+    right: 2px;
+    top: 2px;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    text-align: center;
+    width: 110px;
+    height: 37px;
+    background: #fff;
+    /*-webkit-box-shadow: -3px 0 15px 3px rgba(0,0,0,.1);*/
+    box-shadow: -3px 0 15px 3px rgba(0, 0, 0, .1);
+    z-index: 10;
+    padding-right: 10px;
+  }
+  
+  .el-tag .el-icon-close {
+    border-radius: 50%;
+    text-align: center;
+    position: relative;
+    cursor: pointer;
+    font-size: 15px !important;
+    height: 16px;
+    width: 16px;
+    line-height: 16px;
+    vertical-align: middle;
+    top: -1px;
+    right: -11px !important;
+  }
+  
+  .el-table__header tr,
+  .el-table__header th {
+    padding: 0 !important;
+    height: 40px !important;
+  }
+  
+  .el-table__body tr,
+  .el-table__body td {
+    padding: 0 !important;
+    height: 45px !important;
+  }
+  
+  .pagination {
+    background: #fff;
+    position: fixed;
+    bottom: 3px;
+    width: 100%;
+  }
+  
+  
